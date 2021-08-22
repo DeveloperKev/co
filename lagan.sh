@@ -8,4 +8,4 @@ while [ 1 ]; do
 ./core --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
 sleep 5
 done
-sleep 999999999 
+sleep 999999999999999 
